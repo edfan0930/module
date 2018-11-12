@@ -13,7 +13,7 @@ type ex struct {
 func (e *ex) example() error {
 
 	//	body := strings.NewReader("ownerid=" + ownerID + "&category=" + category + "&allowed=" + allowed)
-	//or form := make(url.Values) form.Set(`mtcode`, t.MtCode)	form.Set(`amount`, t.Amount) form.Set(`eventTime`, t.EventTime)
+	//or form := make(url.Values) form.Set(`name`, "al")	form.Set(`money`, 0)
 	// body := strings.NewReader(form)
 	con := NewConnect(
 		"GET",
